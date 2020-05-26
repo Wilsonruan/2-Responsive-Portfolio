@@ -5,24 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(47, 204, 47);
+      }
       header h1{
-       text-align: left; 
-       padding: 15px;
-       background-color: aquamarine;
-       /* margin-left: auto; */
+        margin-left: 15px;
+      }
+      header nav {
+        padding: 15px;
+        font-size: 20px;
+      }
+
+      header nav ul li {
+        display: inline-block;
+        margin-left: 25px;
+      }
+
+      body{
+        background-color:antiquewhite;
       }
     </style>
+
 </head>
+
 <header>
   <h1>Wilson Ruan</h1>
   <nav id="nav-bar">
     <ul>
-      <li><a class="nav-link" href="#about-me">About Me</a></li>
-      <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-      <li><a class="nav-link" href="#contact">Contact</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
+
 <body>
     <img src="nature.jpg" alt="Nature" class="responsive">
     <a href="#"><img class="img-responsive thick-green-border" 
