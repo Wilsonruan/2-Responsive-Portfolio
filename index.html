@@ -7,11 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <style>
-      * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      }
       header {
         align-items: center;
         border-bottom: 3px solid white;
@@ -21,7 +16,9 @@
       }
       @media (max-width: 650px){
         header {
-          background-color: black;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
         }
       }
       header h1{
@@ -62,7 +59,7 @@
 </header>
 
 <body>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron">
     <div class="container">
       <h1 class="display-4">About Me</h1>
       <hr class="my-4">
