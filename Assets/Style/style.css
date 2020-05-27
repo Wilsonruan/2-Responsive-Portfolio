@@ -1,0 +1,42 @@
+header {
+    align-items: center;
+    border-bottom: 3px solid white;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  @media (max-width: 650px){
+    header, article {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  header h1{
+    margin-left: 15px;
+    font-family: 'Vollkorn', serif;
+    color: white;
+    white-space: nowrap;
+  }
+  header nav ul li {
+    margin-left: 25px;
+  }
+  body {
+    background-image: url("../image/HEROIC-Background.jpg");
+  }
+  .lead{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .float-left {
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .float-left-2 {
+    float: left;
+    margin-right: 25px;
+  }
+  img {
+    height: 10%;
+  }
