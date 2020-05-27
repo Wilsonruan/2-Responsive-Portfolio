@@ -13,6 +13,9 @@
         margin-bottom: 25px;
         display: flex;
         justify-content: space-between;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
       }
       @media (max-width: 650px){
         header, article {
@@ -49,16 +52,19 @@
       img {
         height: 10%;
       }
+      .adjustment {
+        margin-top: 125px;
+      }
     </style>
 
 </head>
 
-<header>
+<header id="about">
   <h1>Wilson Ruan</h1>
   <nav>
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" href="#">About</a>
+        <a class="nav-link active" href="#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#">Portfolio</a>
@@ -71,7 +77,7 @@
 </header>
 
 <body>
-  <div class="jumbotron float-left">
+  <div class="jumbotron float-left adjustment">
     <div class="container float-left">
       <h1 class="display-4">About Me</h1>
       <hr class="my-4">
