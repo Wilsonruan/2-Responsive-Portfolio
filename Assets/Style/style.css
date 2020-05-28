@@ -1,7 +1,7 @@
 header {
     align-items: center;
     border-bottom: 3px solid white;
-    margin: 0 25px 25px 25px;
+    margin: 0 25px 0 25px;
     display: flex;
     justify-content: space-between;
   }
