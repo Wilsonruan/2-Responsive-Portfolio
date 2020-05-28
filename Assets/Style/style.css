@@ -42,26 +42,16 @@ header {
     }
 
     .adjustment{
-      margin-left:25px
+      margin-left: 25px;
+      max-width: 900px;
     }
-
-    @media (min-width:1200px){
-      .adjustment{
-        max-width:1250px
-      }
-    }
-
-    @media (max-width:1400px){
-      .adjustment{
-        margin: 0 25px 0 25px;
-      }
-    }
+    
     .input-textarea {
       min-height: 120px;
       width: 100%;
       padding: 0.625rem;
       resize: vertical;
     }
-    .text-1 {
+    /* .text-1 {
       top: 0;
-    }
+    } */
