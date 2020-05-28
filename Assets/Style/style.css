@@ -31,7 +31,6 @@ header {
   .float-left {
     float: left;
     margin-right: 25px;
-    margin-left: 25px;
   }
   .float-left-2 {
     float: left;
@@ -66,4 +65,7 @@ header {
       width: 100%;
       padding: 0.625rem;
       resize: vertical;
+    }
+    .text-1 {
+      top: 0;
     }
