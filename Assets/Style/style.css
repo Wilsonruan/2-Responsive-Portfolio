@@ -67,3 +67,9 @@ header {
       padding: 0.625rem;
       resize: vertical;
     }
+
+    /* @media (max-width: 650px){
+      .input-textarea {
+        margin-right: 25px;
+      }
+    } */
