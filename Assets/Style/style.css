@@ -22,7 +22,7 @@ header {
     margin-left: 25px;
   }
   body {
-    background-image: url("../image/HEROIC-Background.jpg");
+    background-image: url("../Image/HEROIC-Background.jpg");
   }
   .lead{
     display: flex;
