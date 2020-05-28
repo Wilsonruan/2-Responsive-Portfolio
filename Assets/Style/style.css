@@ -40,23 +40,25 @@ header {
   img {
     height: 10%;
   }
-  .adjustment {
-    margin: 0 650px 0 25px;
-  }
-  @media (max-width: 1100px){
-    .adjustment {
-      margin-right: 25px;
-      margin-left: 25px;
-    }
-
-    @media (max-width: 650px){
-      .adjustment {
-        margin: 0 25px 0 25px;
-      }
-    }
-
     @media (max-width: 650px){
       .form-control {
         margin: 0 25px 0 0;
       }
     }
+
+    .adjustment{
+      margin-left:25px
+    }
+
+    @media (min-width:1200px){
+      .adjustment{
+        max-width:1250px
+      }
+    }
+
+    @media (max-width:1400px){
+      .adjustment{
+        margin: 0 25px 0 25px;
+      }
+    }
+
