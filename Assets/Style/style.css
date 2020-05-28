@@ -17,15 +17,14 @@ header {
     font-family: 'Vollkorn', serif;
     color: white;
   }
-  /* header nav ul li {
+  header nav ul li {
     margin-left: 25px;
-  } */
+  }
   body {
     background-image: url("../Image/HEROIC-Background.jpg");
   }
   .lead{
-    display: flex;
-    flex-wrap: nowrap;
+    word-wrap: break-word;
   }
   .float-left {
     float: left;
