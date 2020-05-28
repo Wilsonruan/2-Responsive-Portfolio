@@ -42,16 +42,13 @@ header {
     }
 
     .adjustment{
-      margin-left: 25px;
+      margin: 25px;
       max-width: 900px;
     }
-    
+
     .input-textarea {
       min-height: 120px;
       width: 100%;
       padding: 0.625rem;
       resize: vertical;
     }
-    /* .text-1 {
-      top: 0;
-    } */
