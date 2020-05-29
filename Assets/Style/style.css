@@ -4,34 +4,38 @@ header {
     margin: 0 25px 0px 25px;
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 770px){
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  @media (max-width: 770px){
-    header{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-  header h1{
-    margin-left: 15px;
-    font-family: 'Vollkorn', serif;
-    color: white;
-  }
-  header nav ul li {
-    margin-left: 10px;
-  }
-  body {
-    background-image: url("../Image/HEROIC-Background.jpg");
-  }
-  .float-left {
-    float: left;
-    margin-right: 25px;
-  }
-  .adjustment{
-    margin: 25px;
-    max-width: 900px;
-  }
+}
+header h1{
+  margin-left: 15px;
+  font-family: 'Vollkorn', serif;
+  color: white;
+}
+header nav ul li {
+  margin-left: 10px;
+}
+body {
+  background-image: url("../Image/HEROIC-Background.jpg");
+}
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+.adjustment{
+  margin: 15px;
+  max-width: 900px;
+}
 
-  .input-textarea {
-    min-height: 120px;
-  }
+.input-textarea {
+  min-height: 120px;
+}
+
+.card {
+  margin: 10px 0 10px 0;
+}
