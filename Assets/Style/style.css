@@ -27,9 +27,6 @@ header {
     float: left;
     margin-right: 25px;
   }
-  img {
-    height: 10%;
-  }
     @media (max-width: 650px){
       .form-control {
         margin: 0 25px 0 0;
