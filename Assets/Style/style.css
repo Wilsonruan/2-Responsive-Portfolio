@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
   }
-  @media (max-width: 650px){
+  @media (max-width: 770px){
     header, article{
       display: flex;
       flex-wrap: wrap;
