@@ -27,14 +27,11 @@ header {
     float: left;
     margin-right: 25px;
   }
-    .adjustment{
-      margin: 25px;
-      max-width: 900px;
-    }
+  .adjustment{
+    margin: 25px;
+    max-width: 900px;
+  }
 
-    .input-textarea {
-      min-height: 120px;
-      width: 100%;
-      padding: 0.625rem;
-      resize: vertical;
-    }
+  .input-textarea {
+    min-height: 120px;
+  }
