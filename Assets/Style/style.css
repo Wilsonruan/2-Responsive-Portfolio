@@ -25,8 +25,8 @@ body {
 }
 .float-left {
   float: left;
-  margin-right: 25px;
 }
+
 .adjustment{
   margin: 15px;
   max-width: 900px;
