@@ -23,9 +23,9 @@ header nav ul li {
 body {
   background-image: url("../Image/HEROIC-Background.jpg");
 }
-.float-left {
+/* .float-left {
   float: left;
-}
+} */
 
 .adjustment{
   margin: 15px;
