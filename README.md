@@ -8,7 +8,7 @@ The three navbars are all linked to three individual html files.  The active pag
 
 ## Responsive Layout and Image.
 
-All three html file responses fit any size screen including mobile screen (horizontal and vertical). 
+All three html file responses fit any size screen including mobile screen (horizontal and vertical). There are three links to social media and two links to webpage I developed. 
 
 ## Sticky Footer
 
