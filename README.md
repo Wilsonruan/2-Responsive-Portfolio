@@ -1,6 +1,6 @@
 # 2-Responsive-Portfolio
 
-Responsive Portfolio is a practice website for utilizing Bootstrap components and grid systems.  
+Responsive Portfolio is a practice website for utilizing Bootstrap components and grid systems. This website is a biography of myself. 
 
 ## NavBar
 
