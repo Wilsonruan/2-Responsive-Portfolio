@@ -35,47 +35,41 @@
     </header>
 
     <main>
-      <form action="mailto:wilsonruan23@gmail.com" method="post" enctype="text/plain">
-        <div class="row">
-          <div class="col-12">
-            <div class="jumbotron adjustment">
-              <h2>Contact</h2>
-              <hr class="my-4">
-              <h2 class="lead">Name</h2>
-              <div class="input-group flex-nowrap">
-                <input class="form-control" placeholder="John Smith" aria-label="John Smith">
-              </div>
-              <br>
-              <p class="lead">Email</p>
-              <div class="input-group flex-nowrap">
-                <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="example@gmail.com">
-              </div>
-              <br>
-              <p class="lead">Message</p>
-              <div class="input-group flex-nowrap">
-                <textarea class="form-control input-textarea" id="comments" name="comment"></textarea>
-              </div>
-              <br>
-              <div class="form-group">
-                <button type="submit" id="submit" class="submit-button">Submit</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
-    </main>
-
       <div class="row">
         <div class="col-12">
-          <footer class="footer mt-auto py-3 fixed-bottom">
-            <div class="container">
-              <h6 class="text-muted text-center">&copy; Copyright</h6>
-            </div>
-          </footer>
+          <div class="jumbotron adjustment">
+            <h2>Contact</h2>
+            <hr class="my-4">
+            <form action="mailto:wilsonruan23@gmail.com" method="post" enctype="text/plain">
+              <label class="lead">Name</label>
+              <input class="form-control input-group flex-nowrap" placeholder="John Smith" aria-label="John Smith">
+              <br>
+              <label class="lead">Email</label>
+              <input type="text" class="form-control input-group flex-nowrap" placeholder="example@gmail.com"
+                aria-label="example@gmail.com">
+              <br>
+              <label class="lead">Message</label>
+              <textarea class="form-control input-textarea input-group flex-nowrap" id="comments"
+                name="comment"></textarea>
+              <br>
+              <button type="submit" id="submit" class="submit-button form-group">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
+    </main>
+
+    <div class="row">
+      <div class="col-12">
+        <footer class="footer mt-auto py-3 fixed-bottom">
+          <div class="container">
+            <h6 class="text-muted text-center">&copy; Copyright</h6>
+          </div>
+        </footer>
+      </div>
+    </div>
   </div>
 
-  </body>
+</body>
 
 </html>
