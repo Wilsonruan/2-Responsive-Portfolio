@@ -23,6 +23,8 @@ body {
 
 .img-thumbnail{
   margin: 15px 0 15px 0;
+  width: 500px;
+  height: 350px;
 }
 
 .footer {	
