@@ -66,7 +66,7 @@ body {
   opacity: 0.3;
 }
 
-.container-inside:hover .middle {
+.container-inside:hover .middle{
   opacity: 1;
 }
 
@@ -74,4 +74,33 @@ body {
   color: black;
   font-size: 16px;
   line-height: 10px;
+}
+
+.outer {
+  position: relative;
+}
+ 
+.outer > .inner {
+  position: absolute;
+  top: 25px; left: 25px; bottom: 0; right: 0;
+}
+ 
+.inner {
+  position: relative;
+  pointer-events: none;
+  z-index: 1;
+}
+ 
+.inner a {
+  pointer-events: all;
+}
+
+.fa-github {
+  color: black;
+  opacity: 0.5;
+}
+
+.fa-github:hover {
+  color: blue;
+  opacity: 1;
 }
