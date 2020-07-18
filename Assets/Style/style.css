@@ -44,34 +44,53 @@ body {
   background: rgba(255, 255, 255)
 }
 
-img:hover {
-  background: rgba(0, 0, 0, 0.75)
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
+.image {
+  opacity: 1;
+  display: block;
   transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.overlay:hover {
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image:hover {
+  opacity: 0.3;
+}
+
+.container-inside:hover .middle {
   opacity: 1;
 }
 
 .text {
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+  color: black;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.outer {
+  position: relative;
+}
+ 
+.outer > a {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  top: 0; left: 12px; bottom: 50px; right: 0;
+}
+ 
+.inner {
+  position: relative;
+  pointer-events: none;
+  z-index: 1;
+}
+ 
+.inner a {
+  pointer-events: all;
 }
