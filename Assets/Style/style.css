@@ -75,22 +75,3 @@ body {
   font-size: 16px;
   line-height: 10px;
 }
-
-.outer {
-  position: relative;
-}
- 
-.outer > a {
-  position: absolute;
-  top: 0; left: 12px; bottom: 50px; right: 0;
-}
- 
-.inner {
-  position: relative;
-  pointer-events: none;
-  z-index: 1;
-}
- 
-.inner a {
-  pointer-events: all;
-}
