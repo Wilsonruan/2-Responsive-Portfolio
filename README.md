@@ -15,5 +15,7 @@ All three html file responses fit any size screen including mobile screen (horiz
 Using Bootstrap only, the footer will appear on the screen no matter what the size is on the screen. 
 
 
+https://wilsonruan.github.io/2-Responsive-Portfolio/index.html
+
 
 
