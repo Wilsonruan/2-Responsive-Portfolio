@@ -104,3 +104,8 @@ body {
   color: blue;
   opacity: 1;
 }
+
+h3 {
+  font-size: medium;
+  margin: auto 5px auto 5px ;
+}
