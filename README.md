@@ -2,7 +2,7 @@
 
 Responsive Portfolio is a practice website for utilizing Bootstrap components and grid systems. This website is a biography of myself. 
 
-![](./Assets/Image/ReadMe1)
+![](./Assets/Image/ReadMe1.jpg)
 
 ## NavBar
 
@@ -12,13 +12,13 @@ The three navbars are all linked to three individual html files.  The active pag
 
 All three html file responses fit any size screen including mobile screen (horizontal and vertical). There are three links to social media and two links to webpage I developed. 
 
-![](./Assets/Image/ReadMe2)
+![](./Assets/Image/ReadMe2.jpg)
 
 ## Resume
 
 MY resume is located in about me. 
 
-![](./Assets/Image/ReadMe3)
+![](./Assets/Image/ReadMe3.jpg)
 
 ## The URL of the deployed application
 
